@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # Read data from csv file
-df = pd.read_csv('placement.csv')
+df = pd.read_csv('placement.csv',header=None)
 
 #diffrentiate x and y
 x = df.iloc[:,0].values
